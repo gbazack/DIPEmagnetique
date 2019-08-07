@@ -29,6 +29,6 @@ if __name__ == '__main__':
 	try:
 		port = int(environ.get('SERVER_PORT', '50015'))
 	except ValueError:
-		port = 50015
+		port = 5000
 	
 	app.run(host , port)
